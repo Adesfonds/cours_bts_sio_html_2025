@@ -11,7 +11,8 @@ Ce dépôt est organisé en plusieurs dossiers correspondant à différents chap
 
 ### TP3 - Utilisation des balises HTML "Conteneurs texte"
 Cliquez sur le bouton ci-dessous pour accéder directement au exercice du TP3 :
-[![Accèder au document TP3](https://img.shields.io/badge/TP3-HTML-CSS-blue?style=for-the-badge)](./TP3/TP3-HTML-CSS.pdf)
+[![Accèder au document TP3](https://img.shields.io/badge/TP3-HTML_CSS-blue?style=for-the-badge
+)](./TP3/TP3-HTML-CSS.pdf)
 
 [![Accéder à l'exercice 1 du TP3](https://img.shields.io/badge/Exercice_1-TP3-blue?style=for-the-badge)](./TP3/exercice1_tp3/exercice1_tp3.html)
 
