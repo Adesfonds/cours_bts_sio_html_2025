@@ -4,7 +4,7 @@ Bienvenue sur le dépôt GitHub contenant les travaux pratiques (TP) de mes cour
 
 ## Contenu du Dépôt 📂
 
-Ce dépôt est organisé en plusieurs dossiers correspondant à différents chapitres ou sujets des TP. Chaque dossier contient des fichiers HTML ainsi que des explications ou des ressources supplémentaires.
+Ce dépôt est organisé en plusieurs dossiers correspondant à différents sujets des TP. Chaque dossier contient des fichiers HTML ainsi que des explications ou des ressources supplémentaires.
 
 
 ## Accès rapide aux exercices 🚀
