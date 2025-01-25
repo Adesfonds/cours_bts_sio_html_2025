@@ -14,9 +14,9 @@ Cliquez sur le bouton ci-dessous pour accéder directement au exercice du TP3 :
 
 [![Accéder à l'exercice 1 du TP3](https://img.shields.io/badge/Exercice_1-TP3-blue?style=for-the-badge)](./03-liens-et-images/exercice1.html)
 
-[![Accèdes à l'exercice 2 du TP3](https://img.shields.io/badge/Exercice_1-TP3-blue?style=for-the-badge)]
+[![Accéder à l'exercice 2 du TP3](https://img.shields.io/badge/Exercice_2-TP3-blue?style=for-the-badge)]
 
-[![Accéder à l'exercice 3 du TP3](https://img.shields.io/badge/Exercice_1-TP3-blue?style=for-the-badge)]
+[![Accéder à l'exercice 3 du TP3](https://img.shields.io/badge/Exercice_3-TP3-blue?style=for-the-badge)]
 
 ## Prérequis 🛠️
 
