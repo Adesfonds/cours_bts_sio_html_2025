@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mémento HTML5 - Complet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #214bb5;
+        }
+        .example {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        pre {
+            background-color: #eaeaea;
+            padding: 10px;
+            font-family: monospace;
+            white-space: pre-wrap;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mémento HTML5</h1>
+    <section>
+        <h2>&lt;p&gt; - Paragraphe</h2>
+        <p>Le rôle de la balise <strong>&lt;p&gt;</strong> est d’encapsuler un paragraphe de texte.</p>
+        <div class="example">
+            Exemple d’utilisation :
+            <pre>
+&lt;p&gt;Ceci est un paragraphe.&lt;/p&gt;
+            </pre>
+            Aperçu :
+            <p>Ceci est un paragraphe.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;... - Titres</h2>
+        <p>Les balises <strong>&lt;h1&gt; à &lt;h6&gt;</strong> servent à structurer le contenu avec des titres, <strong>&lt;h1&gt;</strong> étant le plus important.</p>
+        <div class="example">
+            Exemple d’utilisation :
+            <pre>
+&lt;h1&gt;Titre principal&lt;/h1&gt;
+&lt;h2&gt;Sous-titre&lt;/h2&gt;
+            </pre>
+            Aperçu :
+            <h1>Titre principal</h1>
+            <h2>Sous-titre</h2>
+        </div>
+    </section>
+
+    <section>
+        <h2>&lt;strong&gt; et &lt;em&gt; - Texte en gras et en italique</h2>
+        <p><strong>&lt;strong&gt;</strong> met en évidence un texte important (généralement affiché en gras), et <strong>&lt;em&gt;</strong> met un texte en emphase (généralement en italique).</p>
+        <div class="example">
+            Exemple d’utilisation :
+            <pre>
+&lt;strong&gt;Texte important&lt;/strong&gt;
+&lt;em&gt;Texte en italique&lt;/em&gt;
+            </pre>
+            Aperçu :
+            <p><strong>Texte important</strong></p>
+            <p><em>Texte en italique</em></p>
+        </div>
+    </section>
+
+    <section>
+        <h2>&lt;ul&gt; et &lt;ol&gt; - Listes</h2>
+        <p>Les balises <strong>&lt;ul&gt;</strong> (liste à puces) et <strong>&lt;ol&gt;</strong> (liste numérotée) permettent de créer des listes organisées ou non.</p>
+        <div class="example">
+            Exemple d’utilisation :
+            <pre>
+&lt;ul&gt;
+    &lt;li&gt;Élément 1&lt;/li&gt;
+    &lt;li&gt;Élément 2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;Premier&lt;/li&gt;
+    &lt;li&gt;Deuxième&lt;/li&gt;
+&lt;/ol&gt;
+            </pre>
+            Aperçu :
+            <ul>
+                <li>Élément 1</li>
+                <li>Élément 2</li>
+            </ul>
+            <ol>
+                <li>Premier</li>
+                <li>Deuxième</li>
+            </ol>
+        </div>
+    </section>
+
+    <section>
+        <h2>&lt;a&gt; - Lien</h2>
+        <p>La balise <strong>&lt;a&gt;</strong> permet de créer des liens hypertextes. L’attribut <strong>href</strong> indique l’URL de destination.</p>
+        <div class="example">
+            Exemple d’utilisation :
+            <pre>
+&lt;a href="https://example.com"&gt;Visitez le site&lt;/a&gt;
+            </pre>
+            Aperçu :
+            <a href="https://example.com">Visitez le site</a>
+        </div>
+    <section>
+        <h2>&lt;article&gt; et &lt;section&gt; - Structure</h2>
+        <p><strong>&lt;article&gt;</strong> sert à structurer un contenu autonome (comme un article de blog). <strong>&lt;section&gt;</strong> divise le contenu en sections logiques.</p>
+        <div class="example">
+            Exemple d’utilisation :
+            <pre>
+&lt;article&gt;
+    &lt;h2&gt;Titre de l’article&lt;/h2&gt;
+    &lt;p&gt;Contenu de l’article.&lt;/p&gt;
+&lt;/article&gt;
+
+&lt;section&gt;
+    &lt;h2&gt;Titre de la section&lt;/h2&gt;
+    &lt;p&gt;Contenu de la section.&lt;/p&gt;
+&lt;/section&gt;
+            </pre>
+            Aperçu :
+            <article>
+                <h2>Titre de l’article</h2>
+                <p>Contenu de l’article.</p>
+            </article>
+            <section>
+                <h2>Titre de la section</h2>
+                <p>Contenu de la section.</p>
+            </section>
+        </div>
+    </section>
+
+    <section>
+        <h2>&lt;footer&gt; - Pied de page</h2>
+        <p>La balise <strong>&lt;footer&gt;</strong> est utilisée pour définir le pied de page d’un document ou d’une section.</p>
+        <div class="example">
+            Exemple d’utilisation :
+            <pre>
+&lt;footer&gt;
+    &lt;p&gt;© 2025 Mon Site Web&lt;/p&gt;
+&lt;/footer&gt;
+            </pre>
+            Aperçu :
+            <footer>
+                <p>© 2025 Mon Site Web</p>
+            </footer>
+        </div>
+    </section>
+    <section>
+        <h2>&lt;iframe&gt; - Cadre intégré</h2>
+        <p>La balise <strong>&lt;iframe&gt;</strong> permet d'intégrer une autre page web ou un contenu externe dans une page. On peut définir sa largeur et sa hauteur avec les attributs <strong>width</strong> et <strong>height</strong>.</p>
+        <div class="example">
+            Exemple d’utilisation :
+            <pre>
+&lt;iframe src="https://www.example.com" width="600" height="400"&gt;
+    Votre navigateur ne prend pas en charge les iframes.
+&lt;/iframe&gt;
+            </pre>
+            Aperçu :
+            <iframe src="https://www.example.com" width="600" height="400">
+                Votre navigateur ne prend pas en charge les iframes.
+            </iframe>
+        </div>
+    </section>
+
+</body>
+</html>
