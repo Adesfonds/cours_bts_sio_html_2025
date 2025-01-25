@@ -9,7 +9,7 @@ Ce dépôt est organisé en plusieurs dossiers correspondant à différents chap
 
 ## Accès rapide aux exercices 🚀
 
-### TP3 - Utimisation des balises HTML "Conteneurs texte"
+### TP3 - Utilisation des balises HTML "Conteneurs texte"
 Cliquez sur le bouton ci-dessous pour accéder directement au exercice du TP3 :
 
 [![Accéder à l'exercice 1 du TP3](https://img.shields.io/badge/Exercice_1-TP3-blue?style=for-the-badge)](./03-liens-et-images/exercice1.html)
