@@ -24,3 +24,12 @@ Cliquez sur les boutons ci-dessous pour accéder directement au exercice du TP3 
 
 [![Accéder à l'exercice 3 du TP3](https://img.shields.io/badge/Exercice_3-TP3-blue?style=for-the-badge)](./TP3/exercice3_tp3/cv.html)
 
+### TP4 - Les liens en HTML
+
+Accès au TP4 :
+
+[![Accèder au document TP4](https://img.shields.io/badge/TP3-HTML_CSS-blue?style=for-the-badge)](./TP4/Site root/Docs/cours_HTML/TP/TP4-Lien.pdf)
+
+CLiquez sur ce boutons ci-dessous pour accéder directement a l'exercice du TP4 :
+
+
