@@ -1,0 +1,166 @@
+/* Style global */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+  border: 70px solid #619dd1;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  height: 100vh;
+}
+
+/* Titres */
+h1 {
+  color: rgb(73, 101, 171);
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: #4965ab;
+  color: #ffffff;
+  display: inline-block;
+  padding: 4px 8px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  background-color: #dae0f0;
+  color: #333;
+  display: inline-block;
+  padding: 4px 8px;
+  margin-bottom: 20px;
+}
+
+/* Paragraphe */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Boutons */
+.boutons {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  margin-right: 100px;
+  margin-top: 90px;
+}
+
+.boutons a {
+  display: block;
+}
+
+button {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4965ab;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Conteneur principal */
+.conteneur {
+  position: relative;
+  width: 100%;
+}
+
+.conteneur h1 {
+  float: left;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+/* Container */
+.container {
+  margin: 0 auto;
+  padding: 60px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Bloc de code */
+pre.code {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Courier New', monospace;
+  color: #333;
+  line-height: 1.5;
+  white-space: pre-wrap; /* Permet de couper les lignes */
+  overflow-x: auto; /* Ajoute un défilement horizontal si nécessaire */
+}
+
+/* Images */
+.images {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.images img {
+  margin: 0 10px; /* Espacement entre les images */
+  border-radius: 8px;
+}
+
+/* Description */
+.descript {
+  margin: 20px;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Cours */
+.cours {
+  text-align: center;
+  margin: 20px;
+}
+
+.cours a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #4965ab;
+  display: inline-block;
+  margin: 5px 0;
+}
+
+.cours a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Embed */
+embed {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ddd;
+  margin-top: 90px;
+}
+embed {
+  display: block; /* Pour prendre l'espace nécessaire */
+  margin: 50px auto; /* Centre horizontalement et ajoute un espacement vertical */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 70px;
+}
