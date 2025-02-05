@@ -28,7 +28,9 @@ Cliquez sur les boutons ci-dessous pour accéder directement au exercice du TP3 
 
 Accès au TP4 :
 
-[![Accèder au document TP4](https://img.shields.io/badge/TP3-HTML_CSS-blue?style=for-the-badge)](./TP4/Site root/Docs/cours_HTML/TP/TP4-Lien.pdf)
+[![Accèder au document TP4](https://img.shields.io/badge/TP4-HTML_CSS-blue?style=for-the-badge)](./TP4/Site root/Docs/cours_HTML/TP/TP4-Lien.pdf).
+Cliquez sur le bouton ci-dessous pour accéder directement a l'exercice du TP4 :
+
 
 CLiquez sur ce boutons ci-dessous pour accéder directement a l'exercice du TP4 :
 
