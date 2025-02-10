@@ -37,7 +37,7 @@ Cliquez sur ce boutons ci-dessous pour accéder directement a l'exercice du TP4 
 ### TP5 - Les images et JS
 
 Accès au TP5 : 
-[![Accèder au document TP5](https://img.shields.io/badge/TP5-Les-images-blue?style=for-the-badge)](./TP5/TP3-Image.pdf)
+[![Accèder au document TP5](https://img.shields.io/badge/TP5-Les-images_JS-blue?style=for-the-badge)](./TP5/TP3-Image.pdf)
 
 
 
