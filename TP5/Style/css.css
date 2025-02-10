@@ -1,0 +1,41 @@
+img{
+    border: solid 1px black;
+    width: 100px;
+    height: 100px;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    min-width: 600px;
+}
+.image-container {
+    display: grid; /* afficher les images en grille */
+    grid-template-columns: repeat(5, 1fr); /* 5 colonnes de largeur égale */
+    grid-gap: 10px; /* espace entre les images */
+    background-color: #ccc; /* couleur de fond de la boite */
+    padding: 10px; /* espace entre les images et la boite */
+    height: 180vh; /* hauteur de la boite */
+}
+  
+.image-container img {
+    width: 100%; /* largeur de l'image */
+    height: 100%; /* hauteur de l'image */
+    opacity: 0; /* rendre l'image transparente */
+    transition: opacity 0.5s; /* animation de transition */
+  outline : 1px solid black;
+}
+  
+.image-container input[type="checkbox"] {
+    display: none;
+}
+  
+.image-container label {
+    cursor: pointer;
+    border: 1px solid black;
+}
+  
+.image-container input[type="checkbox"]:checked + label img {
+    opacity: 1; /* rendre l'image visible */
+    outline: 1px solid black;
+}
