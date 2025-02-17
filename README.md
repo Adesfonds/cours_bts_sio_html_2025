@@ -48,6 +48,6 @@ Cliquez sur ce boutons ci-dessous pour accéder directement a l'exercice du TP5 
 
 Accès au TP6:
 
-[![Accèder au document TP6](https://img.shields.io/badge/TP5-les tableaux_et_JS-blue?style=for-the-badge)](./TP6/TP6-les tableaux.pdf)
+[![Accèder au document TP6](https://img.shields.io/badge/TP6-les tableaux-blue?style=for-the-badge)](./TP6/TP6-les tableaux.pdf)
 
 
