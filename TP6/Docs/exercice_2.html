@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tableau des langages de script côté serveur</title>
+    <link rel="stylesheet" href="../Style/css2.css">
+
+    <script>
+        function afficherImage(imageSrc) {
+            window.open(imageSrc, "_blank");
+        }
+    </script>
+</head>
+<body>
+
+    <table>
+        <caption>Comparaison des langages de script côté serveur</caption>
+        <thead>
+            <tr>
+                <th>Logo</th>
+                <th>Non abrégé</th>
+                <th>Nom complet</th>
+                <th>Année de sortie</th>
+                <th>Site web de référence</th>
+                <th>Exemple de code</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="../Image/PHP.png" alt="Logo PHP" title="PHP" onclick="afficherImage('../Image/PHP.png')">
+                </td>
+                <td>PHP</td>
+                <td>Hypertext Preprocessor</td>
+                <td>1995</td>
+                <td>
+                    <a href="https://www.php.net/" target="_blank" title="Visitez le site officiel de PHP">php.net</a>
+                </td>
+                <td><code>&lt;?php echo "Hello, World!"; ?&gt;</code></td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../Image/jsp.png" title="JSP" onclick="afficherImage('../Image/jsp.png')">
+                </td>
+                <td>JSP</td>
+                <td>JavaServer Pages</td>
+                <td>1999</td>
+                <td>
+                    <a href="https://www.oracle.com/java/technologies/jspt.html" target="_blank" title="Visitez le site officiel de JSP">oracle.com</a>
+                </td>
+                <td><code>&lt;%= "Hello, World!" %&gt;</code></td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../Image/images.png" alt="Logo ASP" title="ASP" onclick="afficherImage('../Image/images.png')">
+                </td>
+                <td>ASP</td>
+                <td>Active Server Pages</td>
+                <td>1996</td>
+                <td>
+                    <a href="https://learn.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms526064(v=vs.90)" target="_blank" title="Visitez le site officiel de ASP">microsoft.com</a>
+                </td>
+                <td><code>&lt;% Response.Write("Hello, World!") %&gt;</code></td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../Image/téléchargement.png" alt="Logo Ruby" title="Ruby" onclick="afficherImage('../Image/téléchargement.png')">
+                </td>
+                <td>Ruby</td>
+                <td>Ruby</td>
+                <td>1995</td>
+                <td>
+                    <a href="https://www.ruby-lang.org/" target="_blank" title="Visitez le site officiel de Ruby">ruby-lang.org</a>
+                </td>
+                <td><code>puts "Hello, World!"</code></td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../Image/perk.png" alt="Logo Perl" title="Perl" onclick="afficherImage('../Image/perk.png')">
+                </td>
+                <td>Perl</td>
+                <td>Practical Extraction and Reporting Language</td>
+                <td>1987</td>
+                <td>
+                    <a href="https://www.perl.org/" target="_blank" title="Visitez le site officiel de Perl">perl.org</a>
+                </td>
+                <td><code>print "Hello, World!\n";</code></td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../Image/Python-logo.png" alt="Logo Python" title="Python" onclick="afficherImage('../Image/Python-logo.png')">
+                </td>
+                <td>Python</td>
+                <td>Python</td>
+                <td>1991</td>
+                <td>
+                    <a href="https://www.python.org/" target="_blank" title="Visitez le site officiel de Python">python.org</a>
+                </td>
+                <td><code>print("Hello, World!")</code></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

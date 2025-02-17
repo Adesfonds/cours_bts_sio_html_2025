@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #a5b9c9;
+    padding: 10px;
+    text-align: center;
+    width: 14.28%;
+}
+th {
+    background-color: #a4db51;
+}
+td {
+    height: 50px;
+}
+.empty {
+    background-color: #ddd;
+}
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.weekend {
+    background-color: #d5f0a8;
+}
