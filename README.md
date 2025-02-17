@@ -52,7 +52,7 @@ Accès au TP6:
 
 Cliquez sur les boutons ci-dessous pour accéder directement au exercice du TP6 :
 
-[![Accéder à l'exercice 1 du TP6](https://img.shields.io/badge/Exercice_1-TP6-blue?style=for-the-badge)](./TP3/Docs/exercice_1.html)
+[![Accéder à l'exercice 1 du TP6](https://img.shields.io/badge/Exercice_1-TP6-blue?style=for-the-badge)](./TP6/Docs/exercice_1.html)
 
 [![Accéder à l'exercice 2 du TP6](https://img.shields.io/badge/Exercice_2-TP6-blue?style=for-the-badge)](./TP6/Docs/exercice_2.html)
 
