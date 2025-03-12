@@ -58,7 +58,7 @@ Cliquez sur les boutons ci-dessous pour accéder directement au exercice du TP6 
 
 [![Accéder à l'exercice 3 du TP6](https://img.shields.io/badge/Exercice_3-TP6-blue?style=for-the-badge)](./TP6/Docs/exercice_3.html)
 
-##TP7 - Zoning 
+## TP7 - Zoning 
 
 Accès au TP7:
 
