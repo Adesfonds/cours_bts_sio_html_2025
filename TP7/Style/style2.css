@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: bold;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header {
+    background-color:rgb(64, 163, 150); 
+    color: rgb(0, 0, 0);
+ 
+    padding: 30px;
+}
+.menu {
+    background-color: rgb(153, 64, 163);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.main {
+    background-color: rgb(240, 192, 0);
+    flex: 1; 
+    padding: 10px;
+    margin: 30px; 
+    
+}
+.footer {
+    background-color: rgb(64, 163, 150); 
+    color: rgb(0, 0, 0);
+    padding: 30px;
+
+}

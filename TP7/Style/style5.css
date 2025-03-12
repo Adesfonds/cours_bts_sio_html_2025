@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+   
+    text-align: center;
+}
+
+.zone-haut {
+    background-color: rgb(255, 84, 84);
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    position: relative;
+    z-index: 2; /* Place le container au-dessus de la zone bas */
+}
+
+.zone-gauche, .zone-droite {
+    background-color: rgb(84, 133, 255);
+    color: white;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.box {
+    background-color: rgb(85, 217, 122);
+    flex: 1;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.zone-bas {
+    background-color: rgb(255, 217, 0);
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    width: 100%;
+    position: relative;
+    z-index: 1; /* En dessous du container */
+}

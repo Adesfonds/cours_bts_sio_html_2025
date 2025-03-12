@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 85vh;
+}
+
+.zone-gauche {
+    background-color:rgb(64, 163, 150);
+    width: 50%;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.zone-droite {
+    background-color: rgb(153, 64, 163);
+    width: 50%;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    text-align: right;
+}
+
+.zone-bas {
+    background-color: rgb(240, 192, 0);
+    height: 15vh;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}

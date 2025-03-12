@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.zone-haut {
+    background-color: rgb(255, 84, 84);
+    height: 50px;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 50px);
+}
+
+.zone-gauche {
+    background-color:rgb(84, 133, 255) ;
+    width: 20%;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.zone-milieu {
+    background-color: rgb(85, 217, 122);
+    width: 80%;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+.zone-droite {
+    background-color: rgb(158, 111, 63);
+    width: 20%;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: right;
+}
