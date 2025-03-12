@@ -64,6 +64,8 @@ Accès au TP7:
 
 [![Accèder au document TP6](https://img.shields.io/badge/TP7-Zoning-blue?style=for-the-badge)](./TP7/TP5_zoning.pdf)
 
+Cliquez sur les boutons ci-dessous pour accéder directement au exercice du TP7 :
+
 [![Accéder à l'exercice 1 du TP6](https://img.shields.io/badge/Exercice_1-TP7-blue?style=for-the-badge)](./TP7/Docs/exercice1.html)
 
 [![Accéder à l'exercice 2 du TP6](https://img.shields.io/badge/Exercice_2-TP7-blue?style=for-the-badge)](./TP7/Docs/index_exercice2.html)
