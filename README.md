@@ -62,7 +62,7 @@ Cliquez sur les boutons ci-dessous pour accéder directement au exercice du TP6 
 
 Accès au TP7:
 
-[![Accèder au document TP6](https://img.shields.io/badge/TP7-Zoning-blue?style=for-the-badge)](./TP7/TP5_zoning.pdf)
+[![Accèder au document TP7](https://img.shields.io/badge/TP7-Zoning-blue?style=for-the-badge)](./TP7/TP5_zoning.pdf)
 
 Cliquez sur les boutons ci-dessous pour accéder directement au exercice du TP7 :
 
@@ -70,3 +70,8 @@ Cliquez sur les boutons ci-dessous pour accéder directement au exercice du TP7 
 
 [![Accéder à l'exercice 2 du TP6](https://img.shields.io/badge/Exercice_2-TP7-blue?style=for-the-badge)](./TP7/Docs/index_exercice2.html)
 
+## TP8 - JS : les bases 
+
+Cliquez sur les boutons ci-dessous pour accéder directement a l'exercice du TP8 :
+
+[![Accéder à l'exercice 8 du TP8](https://img.shields.io/badge/Exercice_8-TP8-blue?style=for-the-badge)](./TP8/exercice8.html)
