@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.calendrier {
+    border-collapse: collapse;
+    margin: 20px;
+}
+.calendrier td, .calendrier th {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.petit {
+    font-size: 12px;
+}
+.moyen {
+    font-size: 16px;
+}
+.grand {
+    font-size: 20px;
+}

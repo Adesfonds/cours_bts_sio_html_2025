@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de Visite</title>
+    <link rel="stylesheet" href="./ex2.css">
+    <script src="ex2.js" defer></script>
+</head>
+<body>
+    <h1>Formulaire de Visite - Journée Porte Ouverte</h1>
+    
+    <form id="visitorForm">
+        <label for="firstName">Prénom :</label>
+        <input type="text" id="firstName" required><br><br>
+
+        <label for="lastName">Nom :</label>
+        <input type="text" id="lastName" required><br><br>
+
+        <label for="study">Étude suivie :</label>
+        <select id="study" required>
+            <option value="">--Choisissez--</option>
+            <option value="Bac pro">Bac pro</option>
+            <option value="STI">STI</option>
+            <option value="STMG">STMG</option>
+            <option value="Général">Général</option>
+        </select><br><br>
+
+        <button type="submit">Valider</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Prénom</th>
+                <th>Nom</th>
+                <th>Étude suivie</th>
+            </tr>
+        </thead>
+        <tbody id="visitorTableBody">
+            <!-- Les entrées seront ajoutées ici -->
+        </tbody>
+    </table>
+</body>
+</html>

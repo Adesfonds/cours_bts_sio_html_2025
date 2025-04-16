@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat et Définitions</title>
+    <link rel="stylesheet" href="./ex1.css"> 
+    <style>
+
+    </style>
+</head>
+<body>
+    <p>
+        Un chat est un mammifère carnivore de la famille des 
+        <span title="Les félidés sont une famille de mammifères comprenant les chats, tigres et lions." data-img="./felin.webp" class="tooltip">félidés</span>. 
+        Il est l’un des animaux de compagnie les plus populaires au monde. 
+        <span title="Un animal domestiqué a évolué au fil du temps pour s'adapter aux besoins et aux conditions de vie humaines." data-img="chat.jpg" class="tooltip"> Domestiqué</span> depuis plusieurs millénaires, 
+        il est apprécié pour sa compagnie, son indépendance et ses capacités 
+        <span title="Dans le cas d'un chat, il est souvent qualifié de chasseur de nuisibles." data-img="./chassenui.ex1.jpg" class="tooltip">de chasseur de nuisibles.</span>
+    </p>
+    <p>
+        Le chat possède un corps souple et musclé, des 
+        <span title="Les griffes rétractiles permettent au chat de les sortir uniquement lorsqu’il en a besoin." data-img="./griffe.ex1.jpg" class="tooltip">griffes rétractiles</span>, 
+        ainsi qu’une excellente vision nocturne. Il communique à travers divers comportements, miaulements, ronronnements et postures corporelles.
+    </p>
+    <p>
+        Dans certaines cultures, le chat est associé à des 
+        <span title="Une superstition de l'époque laissait penser que le chat noir était l'animal de compagnie des sorcières." data-img="./chatnoir.ex1.jpg" class="tooltip">
+        superstitions
+        </span>
+        ou des croyances, allant de porte-bonheur à animal maléfique.
+    </p>
+    
+    <div class="image-tooltip" id="tooltip"></div>
+
+    <script>
+        const tooltipDiv = document.getElementById('tooltip');
+        const tooltips = document.querySelectorAll('.tooltip');
+
+        tooltips.forEach(tooltip => {
+            tooltip.addEventListener('mouseenter', function() {
+                const imgSrc = this.getAttribute('data-img');
+                tooltipDiv.innerHTML = `<img src="${imgSrc}" alt="Image" />`;
+                tooltipDiv.style.display = 'block';
+                tooltipDiv.style.left = `${this.getBoundingClientRect().left}px`;
+                tooltipDiv.style.top = `${this.getBoundingClientRect().bottom}px`;
+            });
+            
+            tooltip.addEventListener('mouseleave', function() {
+                tooltipDiv.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+</html>
