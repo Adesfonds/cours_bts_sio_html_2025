@@ -77,3 +77,17 @@ Cliquez sur les boutons ci-dessous pour accéder directement a l'exercice du TP8
 [![Accéder à l'exercice 8 du TP8](https://img.shields.io/badge/Exercice_8-TP8-blue?style=for-the-badge)](./TP8/exercice8.html)
 
 ## TP 9 - JS Avancé 
+
+Accès au TP9:
+
+[![Accèder au document TP9](https://img.shields.io/badge/TP9-JS_Avancé-blue?style=for-the-badge)](./TP9/TP9.pdf)
+
+Cliquez sur les boutons ci-dessous pour accéder directement au exercice du TP9 :
+
+[![Accéder à l'exercice 1 du TP9](https://img.shields.io/badge/Exercice_1-TP9-blue?style=for-the-badge)](./TP9/ex1/ex1.html)
+
+[![Accéder à l'exercice 2 du TP9](https://img.shields.io/badge/Exercice_2-TP9-blue?style=for-the-badge)](./TP9/ex2/ex2.html)
+
+[![Accéder à l'exercice 3 du TP9](https://img.shields.io/badge/Exercice_3-TP9-blue?style=for-the-badge)](./TP9/ex3/ex3.html)
+
+[![Accéder à l'exercice 4 du TP9](https://img.shields.io/badge/Exercice_4-TP9-blue?style=for-the-badge)](./TP9/ex4/ex4.html)
